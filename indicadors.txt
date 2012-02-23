@@ -1,0 +1,57 @@
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+
+
+Technical Indicator Functions
+
+A group of functions intended for calculation of standard and custom indicators.
+
+For an Expert Advisor (or any other MQL4 program) to take up the value of any indicator, it is not necessary that this indicator is present in the chart. The requested indicator will be loaded and calculated in the thread of the module that has called it.
+
+Any indicator can be calculated on the data of not only current chart, but also on the data of any available symbol/period. If data (symbol name and/or timeframe differ from the current ones) are requested from another chart, the situation is possible that the corresponding chart was not opened in the client terminal and the necessary data must be requested from the server. In this case, error ERR_HISTORY_WILL_UPDATED (4066 - the requested history data are under updating) will be placed in the last_error variable, and one will has to re-request (see example of ArrayCopySeries()).
+
+All indicator functions have at least 2 parameters - symbol and period. The NULL value of the symbol means the current symbol, the 0 value of the period means the current timeframe.
+
+Function
+
+Returns the indicator value
+
+iAC
+
+Accelerator Oscillator
+
+iAD
+
+Accumulation/Distribution
+
+iADX
+
+Average Directional Index
+
+iAlligator
+
+Alligator
+
+iAO
+
+Awesome Oscillator
+
+iATR
+
+Average True Range
+
+iBearsPower
+
+Bears Power
+
+iBands
+
+Bollinger Bands®
+
+iBandsOnArray
+
+Calculation of Bollinger Bands® indicator on data, stored in a numeric array

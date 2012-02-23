@@ -1,0 +1,51 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+
+GlobalVariableCheck
+
+Checks the existence of a global variable with the specified name
+
+GlobalVariableTime
+
+Returns time of the last accessing the global variable
+
+GlobalVariableDel
+
+Deletes a global variable
+
+GlobalVariableGet
+
+Returns the value of a global variable
+
+GlobalVariableName
+
+Returns the name of a global variable by its ordinal number in the list of global variables
+
+GlobalVariableSet
+
+Sets the new value to a global variable
+
+GlobalVariablesFlush
+
+Forcibly saves contents of all global variables to a disk
+
+GlobalVariableTemp
+
+Sets the new value to a global variable, that exists only in the current session of the terminal
+
+GlobalVariableSetOnCondition
+
+Sets the new value of the existing global variable by condition
+
+GlobalVariablesDeleteAll
+
+Deletes global variables with the specified prefix in their names
+
+GlobalVariablesTotal
+
+Returns the total number of global variables

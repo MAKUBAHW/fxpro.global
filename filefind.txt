@@ -1,0 +1,35 @@
+jeancharles@fxpro.com
+dealing@fxpro.com
+dealing@fxpro.global
+
+
+FileFindFirst
+The function starts the search of files or subdirectories in a directory in accordance with the specified filter.
+
+long  FileFindFirst(
+   const string   file_filter,          // String - search filter
+   string&        returned_filename,    // Name of the file or subdirectory found
+   int            common_flag=0         // Defines the search
+   );
+
+Parameters
+
+file_filter
+
+[in]  Search filter. A subdirectory (or sequence of nested subdirectories) relative to the \Files directory, in which files should be searched for, can be specified in the filter.
+
+returned_filename
+
+[out]  The returned parameter, where, in case of success, the name of the first found file or subdirectory is placed. Only the file name is returned (including the extension), the directories and subdirectories are not included no matter if they are specified or not in the search filter.
+
+common_flag
+
+[in] Flag determining the location of the file. If common_flag = FILE_COMMON, then the file is located in a shared folder for all client terminals \Terminal\Common\Files. Otherwise, the file is located in a local folder.
+
+Return Value
+
+Returns handle of the object searched, which should be used for further sorting of files and subdirectories by the FileFindNext() function, or INVALID_HANDLE when there is no file and subdirectory corresponding to the filter (in the particular case - when the directory is empty). After searching, the handle must be closed using the FileFindClose() function.
+
+Note
+
+For security reasons, work with files is strictly controlled in the MQL4 language. Files with which file operations are conducted using MQL4 means, cannot be outside the file sandbox.
