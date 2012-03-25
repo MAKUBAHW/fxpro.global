@@ -1,0 +1,18 @@
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+AccountMargin
+Returns margin value of the current account.
+
+double  AccountMargin();
+
+Returned value
+
+Margin value of the current account.
+
+Example:
+
+  Print("Account margin ", AccountMargin());

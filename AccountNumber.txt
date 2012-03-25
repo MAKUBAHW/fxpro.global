@@ -1,0 +1,14 @@
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+AccountNumber
+Returns  account number of the current account.
+
+string  AccountNumber();
+
+Returned value
+
+  Print("Account currency is ", AccountNumber());
