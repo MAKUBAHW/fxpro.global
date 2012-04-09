@@ -1,0 +1,19 @@
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+
+AccountProfit
+Returns profit value of the current account.
+
+double  AccountProfit();
+
+Returned value
+
+Profit value of the current account.
+
+Example:
+
+  Print("Account profit ", AccountProfit());

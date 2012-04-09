@@ -1,0 +1,19 @@
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+
+AccountLeverage
+Returns leverage of the current account.
+
+int  AccountLeverage();
+
+Returned value
+
+Leverage of the current account.
+
+Example:
+
+  Print("Account #",AccountNumber(), " leverage is ", AccountLeverage());
