@@ -1,0 +1,42 @@
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+OrderClose
+Closes opened order.
+
+bool  OrderClose(
+   int        ticket,      // ticket
+   double     lots,        // volume
+   double     price,       // close price
+   int        slippage,    // slippage
+   color      arrow_color  // color
+   );
+
+Parameters
+
+ticket
+
+[in]  Unique number of the order ticket.
+
+lots
+
+[in]  Number of lots.
+
+price
+
+[in]  Closing price.
+
+slippage
+
+[in]  Value of the maximum price slippage in points.
+
+arrow_color
+
+[in]  Color of the closing arrow on the chart. If the parameter is missing or has CLR_NONE value closing arrow will not be drawn on the chart.
+
+Returned value
+
+Returns true if successful, otherwise false. To get additional error information, one has to call the GetLastError() function.
