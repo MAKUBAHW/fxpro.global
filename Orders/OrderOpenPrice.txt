@@ -1,0 +1,26 @@
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+
+OrderOpenPrice
+Returns open price of the currently selected order.
+
+double  OrderOpenPrice();
+
+Returned value
+
+Open price of the currently selected order.
+
+Note
+
+The order must be previously selected by the OrderSelect() function.
+
+Example:
+
+  if(OrderSelect(10, SELECT_BY_POS)==true)
+    Print("open price for the order 10 ",OrderOpenPrice());
+  else
+    Print("OrderSelect returned the error of ",GetLastError());
