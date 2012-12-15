@@ -1,0 +1,31 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+
+OrdersTotal
+Returns the number of market and pending orders.
+
+int  OrdersTotal();
+
+Returned value
+
+Total amount of market and pending orders.
+
+Example:
+
+  int handle=FileOpen("OrdersReport.csv",FILE_WRITE|FILE_CSV,"\t");
+  if(handle<0) return(0);
+  // write header
+  FileWrite(handle,"#","open price","open time","symbol","lots");
+  int total=OrdersTotal();
+  // write open orders
+  for(int pos=0;pos<total;pos++)
+    {
+     if(OrderSelect(pos,SELECT_BY_POS)==false) continue;
+     FileWrite(handle,OrderTicket(),OrderOpenPrice(),OrderOpenTime(),OrderSymbol(),OrderLots());
+    }
+  FileClose(handle);

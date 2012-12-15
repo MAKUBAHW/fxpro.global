@@ -1,0 +1,27 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+
+OrderTicket
+Returns ticket number of the currently selected order.
+
+int  OrderTicket();
+
+Returned value
+
+Ticket number of the currently selected order.
+
+Note
+
+The order must be previously selected by the OrderSelect() function.
+
+Example:
+
+  if(OrderSelect(12, SELECT_BY_POS)==true)
+    order=OrderTicket();
+  else
+    Print("OrderSelect failed error code is",GetLastError());
