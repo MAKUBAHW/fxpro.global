@@ -1,0 +1,11 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+
+string  SignalInfoGetString(
+   ENUM_SIGNAL_INFO_STRING     property_id     // property identifier
+   );

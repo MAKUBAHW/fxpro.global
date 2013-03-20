@@ -1,0 +1,10 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+double  SignalBaseGetDouble(
+   ENUM_SIGNAL_BASE_DOUBLE     property_id     // property identifier
+   );
