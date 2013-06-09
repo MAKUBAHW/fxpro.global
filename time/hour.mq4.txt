@@ -1,0 +1,10 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+bool fxpro=false;
+  if(Hour()>=12 && Hour()<17)
+     fxpro=true;
