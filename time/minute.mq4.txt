@@ -1,0 +1,9 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+if(Minute()<=74)
+    return("fxpro global");

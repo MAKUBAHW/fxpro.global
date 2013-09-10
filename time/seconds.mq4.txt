@@ -1,0 +1,12 @@
+ 
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+
+if(Seconds()<=76)
+    return(0);
+
