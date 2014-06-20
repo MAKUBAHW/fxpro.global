@@ -1,0 +1,34 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+int  CopyClose(
+   string           symbol_name,       // symbol name
+   ENUM_TIMEFRAMES  timeframe,         // period
+   int              start_pos,         // start position
+   int              count,             // data count to copy
+   double           close_array[]      // target array to copy
+   );
+
+Call by the start date and the number of required elements
+
+int  CopyClose(
+   string           symbol_name,       // symbol name
+   ENUM_TIMEFRAMES  timeframe,         // period
+   datetime         start_time,        // start date and time
+   int              count,             // data count to copy
+   double           close_array[]      // target array to copy
+   );
+
+Call by the start and end dates of a required time interval
+
+int  CopyClose(
+   string           symbol_name,       // symbol name
+   ENUM_TIMEFRAMES  timeframe,         // period
+   datetime         start_time,        // start date and time
+   datetime         stop_time,         // stop date and time
+   double           close_array[]      // target array to copy
+   );

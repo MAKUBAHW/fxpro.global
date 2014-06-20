@@ -1,0 +1,13 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+int  iBarShift(
+   string           symbol,          // symbol
+   int              timeframe,       // timeframe
+   datetime         time,            // time
+   bool             exact=false      // mode
+   );

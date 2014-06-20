@@ -1,0 +1,20 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+int  Bars(
+   string           symbol_name,     // symbol name
+   ENUM_TIMEFRAMES  timeframe        // period
+   );
+
+Request the history bars for the selected time interval
+
+int  Bars(
+   string           symbol_name,     // symbol name
+   ENUM_TIMEFRAMES  timeframe,       // period
+   datetime         start_time,      // start date and time
+   datetime         stop_time        // end date and time
+   );
