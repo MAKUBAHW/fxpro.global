@@ -1,0 +1,12 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+double  iHigh(
+   string           symbol,          // symbol
+   int              timeframe,       // timeframe
+   int              shift            // shift
+   );
