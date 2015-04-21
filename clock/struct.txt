@@ -1,0 +1,11 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+
+datetime  StructToTime(
+   MqlDateTime$  dt_struct      // structure of the date and time
+   );

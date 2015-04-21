@@ -1,0 +1,10 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+datetime  TimeGMT(
+   MqlDateTime&  dt_struct      
+   );

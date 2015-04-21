@@ -1,0 +1,11 @@
+
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+datetime  TimeLocal(
+   MqlDateTime&  dt_struct      
+   );

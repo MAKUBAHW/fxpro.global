@@ -1,0 +1,11 @@
+
+jeancharles@fxpro.com
+fxpro.com
+fxpro.global
+fxproglobalmarkets.com
+fxpro.software
+
+void  TimeToStruct(
+   datetime      dt,            
+   MqlDateTime&  dt_struct      
+   );
